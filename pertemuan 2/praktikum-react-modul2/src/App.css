@@ -1,0 +1,24 @@
+/* src/App.css */
+.wadah { max-width: 640px; margin: 40px auto; padding: 0 20px; font-family: Arial, sans-serif; color: #1F2937; }
+.judul { color: #1B365D; margin-bottom: 4px; }
+.subjudul { color: #6B7280; margin-top: 0; margin-bottom: 24px; }
+.kartu { background: #FFFFFF; border: 1px solid #D0D7DE; border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.08); }
+.kartu h2 { margin-top: 0; font-size: 18px; color: #1B365D; }
+.baris { display: flex; gap: 8px; }
+.input { flex: 1; padding: 10px; border: 1px solid #D0D7DE; border-radius: 6px; font-size: 14px; }
+.tombol { padding: 10px 16px; border: none; border-radius: 6px; background: #1B365D; color: #FFFFFF; font-weight: bold; cursor: pointer; }
+.tombol:disabled { background: #9CA3AF; cursor: not-allowed; }
+.tombol-merah { background: #DC2626; }
+.tombol-kecil { padding: 6px 10px; font-size: 12px; }
+.daftar { list-style: none; padding: 0; margin: 0; }
+.item { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #E5E7EB; }
+.item span { flex: 1; }
+.selesai { text-decoration: line-through; color: #9CA3AF; }
+.kosong { color: #6B7280; text-align: center; font-style: italic; }
+.galat { color: #DC2626; font-size: 13px; margin: 6px 0 0; }
+.ringkasan { font-size: 14px; color: #374151; }
+
+/* ===== Tambahan TUGAS 1 & 2 ===== */
+.baris-filter { margin-bottom: 12px; }
+.tombol-pasif { background: #E5E7EB; color: #1F2937; }
+.tombol-hapus-selesai { margin-top: 16px; width: 100%; }
